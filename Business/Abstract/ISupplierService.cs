@@ -7,10 +7,8 @@ using Entities.Concrete;
 
 namespace Business.Abstract
 {
-    public interface IApplicantService
+    public interface ISupplierService
     {
-        void ApplyForMask(Person person);
-        List<Person> GetList();
-        bool CheckPerson(Person person);
+        void GiveMask(Person person);
     }
 }
